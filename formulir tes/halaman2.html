@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+</head>
+<body>
+    <h2>Form Pemesanan Kendaraan</h2>
+    <form action="submit" method="post">
+        <fieldset>
+            <legend>Formulir Pemesanan Kendaraan</legend>
+            <label for="Nama Pemesanan">Nama Pemesanan:</label>
+            <input type="text" id="nama" name="nama" required>
+            <br>
+
+            <label for="Alamat Pemesanan">Alamat Pemesanan:</label>
+            <input type="text" name="alamat" required>
+            <br>
+
+            <label for="Nomor Telepon">Nomor Telepon:</label>
+            <input type="number" name="Telepon" required>
+            <br>
+
+            <label for="Tanggal Sewa">Tanggal Sewa:</label>
+            <input type="date" name="Tanggal Sewa" required>
+            <br>
+
+            <label for="Tanggal Pengembalian">Tanggal Pengembalian:</label>
+            <input type="date" name="Tanggal Pengembalian" required>
+            <br>
+
+            <label for="Jenis Kendaraan">Jenis kendaraan:</label>
+            <select id="kendaraan" name="kendaraan">
+                <option value="Mobil">Mobil</option>
+                <option value="Motor">Motor</option>
+            </select>
+            <br>
+
+            <label for="Model Kendaraan">Model kendaraan:</label>
+            <select id="Mobil" name="Mobil"
+                    id="Motor" name="Motor">
+                <option value="Nuwax Merah">Nuwax Merah</option>
+                <option value="Beat Hitam">Beat Hitam</option>
+                <option value="BMW Kuning">BMW Kuning</option>
+                <option value="Mercedes Hitam">Mercedes Hitam</option>
+                <option value="Avanza Hitam">Avanza Hitam</option>
+            </select>
+            <br>
+
+            <label for="Asuransi Tambahan">Asuransi Tambahan</label>
+            <select id="Asuransi Tambahan" name="Asuransi Tambahan">
+                <option value="YA">YA</option>
+                <option value="Tidak">Tidak</option>
+            </select>
+            <br>
+
+            <label for="Catatan">Catatan</label>
+            <input type="text" name="Catatan" required>
+            <br>
+
+        </fieldset>
+
+        <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
